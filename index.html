@@ -1,41 +1,36 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=./app_code/dist/index.html">
     <title>Bake Sale Calculator</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              'primary': '#f472b6',
-              'secondary': '#fb923c',
-              'background': '#fff7ed',
-              'surface': '#ffffff',
-              'text-primary': '#334155',
-              'text-secondary': '#64748b',
-              'accent': '#4f46e5',
-            }
-          }
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #fff7ed;
         }
-      }
-    </script>
-  <script type="importmap">
-{
-  "imports": {
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0"
-  }
-}
-</script>
-
+        .message {
+            text-align: center;
+        }
+        a {
+            color: #4f46e5;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-  <body class="bg-background">
-    <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
-  </body>
+<body>
+    <div class="message">
+        <h1>Redirecting to Bake Sale Calculator...</h1>
+        <p>If you are not redirected automatically, <a href="./app_code/dist/index.html">click here</a>.</p>
+    </div>
+</body>
 </html>
