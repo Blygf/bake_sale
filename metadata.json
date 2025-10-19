@@ -1,0 +1,5 @@
+{
+  "name": "Bake Sale Calculator",
+  "description": "A web application to manage bake sale lists, track inventory, calculate costs, revenue, and profit margins for each item. Supports data import and export for easy management.",
+  "requestFramePermissions": []
+}
